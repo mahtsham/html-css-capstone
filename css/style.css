@@ -2,5 +2,228 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
 }
+
+@media (min-width: 600px) {
+  body {
+    display: none;
+  }
+}
+
+.navigation {
+  background-color: #7a4e14;
+  padding: 3px;
+}
+a {
+  text-decoration: none;
+}
+.navigation > div > div > a > i {
+    color: white;
+    font-size: 2rem;
+}
+
+.navigation > div > .name > a > h5 {
+    color: white;
+    font-size: 2rem;
+    font-style: italic;
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navigation > div > ul > li > a {
+  color: rgb(235, 209, 191);  
+}
+.navigation > div > ul > li > a:hover {
+  color: white;
+}
+
+main .first-section {
+  background-image: url(./assets/background.jpeg);
+  height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container > .first-section > .box-section {
+  margin: auto;
+  color: white;
+  height: 500px;
+  width: 90%;
+}
+
+.search-box {
+  margin: 0;
+  padding: 10px 0;
+  background-color: gray;
+  border: 1px solid black;
+}
+
+.container > .first-section > .box-section > div > h5 {
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+.container > .first-section > .box-section > .search-box {
+  margin: 0 0;
+  color: white;
+  border-radius: 10px;
+  opacity: 0.8;
+}
+.container > .first-section > .box-section > .search-box > .inner > a > h5{
+  color: white;
+  text-align: center;
+  font-size: 20px;
+
+}
+
+.container > .first-section > .box-section > .search-box > .inner > a > .search-button{
+  padding: 12px 100px;
+  color: white;
+  background-color: brown;
+  border-radius: 10px;
+  width: 100%;
+}
+.container > .first-section > .box-section > .search-box > .inner > a > .search-button:hover {
+  background: rgb(90, 3, 3);
+}
+
+.container > .first-section > .box-section > .search-box > .inner > a > .input-box{
+  padding: 12px 0;
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.container > .first-section > .box-section > .second-button {
+  align-self: center;
+  margin-top: 50px;
+}
+
+.container > .first-section > .box-section > .second-button > .button2 {
+  border: none;
+  border-radius: 10px;
+  background-color: brown;
+  width: 150px;
+  opacity: 0.7;
+}
+
+.container > .first-section > .box-section > .second-button > .button2 {
+  color: white;
+  padding: 0;
+}
+
+.container > .first-section > .box-section > .second-button > .button2:hover {
+  background-color: rgb(90, 3, 3);
+}
+.second-section{
+  
+  padding: 10px 10px;
+}
+
+.second-section > .item1 > .content {
+  background-color:#cc3f33 ;
+  padding: 5px 20px;
+  margin: 10px 20px;
+  color: white;
+}
+
+.container {
+  background-color: #af8d5f;
+}
+
+.second-section > .item2 > .content {
+  background-color: #d7af6a ;
+  padding: 5px 20px;
+  margin: 10px 20px;
+  color: white;
+}
+.second-section > .item3 > .content {
+  background-color: black ;
+  padding: 5px 20px;
+  margin: 10px 20px;
+  color: white;
+}
+
+.mid-section {
+  padding: 10px 10px;
+}
+.mid-section h2 {
+  color: #cc3f33;
+}
+.mid-section > .item1 {
+  margin: 0 20px;
+  background-color: rgb(184, 163, 163);
+  padding: 5px;
+  border-bottom: 4px dotted black;
+}
+
+.mid-section > .item1 > h2 {
+  color: black;
+} 
+
+.mid-section  .item1 a  i {
+  color: black;
+  font-size: 2rem;
+}
+
+main .pic {
+  background-image: url(./assets/botton-pic.jpeg);
+  height: 220px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.qlink > .footer-links >li > a {
+  color: #737373;
+}
+
+.qlink > div > .log > a > i {
+  color: red;
+  font-size: 4rem;
+}
+
+.qlink > div > .log > a > h5 {
+  color: red;
+}
+
+.qlink > .footer-links >li > a:hover{
+  color: white;
+}
+
+.site-footer > .container1 > div > .about{
+  text-align: center;
+  
+}
+
+
+.site-footer
+{
+  background-color:#26272b;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+}
+
+.container2 {
+  background-color: black;
+  color: #737373;
+}
+.icons > ul > li >a {
+  color: white;
+  margin: 10px;
+}
+
+
+.social-icons a.facebook:hover
+{
+  background-color:#3b5998
+}
+.social-icons a.twitter:hover
+{
+  background-color:#00aced
+}
+.social-icons a.linkedin:hover
+{
+  background-color:#007bb6
+}
+
