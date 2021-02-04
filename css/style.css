@@ -213,17 +213,75 @@ main .pic {
   margin: 10px;
 }
 
-
-.social-icons a.facebook:hover
-{
-  background-color:#3b5998
+.social-icons a.facebook:hover {
+  background-color: rgb(58, 86, 148)
 }
+
 .social-icons a.twitter:hover
 {
   background-color:#00aced
 }
+
 .social-icons a.linkedin:hover
 {
   background-color:#007bb6
 }
 
+.search-form{
+  margin: 25px;
+  background-color: rgb(206, 201, 201);
+}
+
+.heading {
+  text-align: center;
+  opacity: 0.5;
+}
+
+input[type=text]{
+  width: 40%;
+}
+
+label {
+  font-size: 25px;
+  margin: 0 20px;
+}
+
+.containerp2 > .search-form > .country {
+  margin: 100px;
+}
+
+.select {
+  width: 40%;
+}
+
+.btn-submit {
+  margin: 5px 200px;
+  padding: 5px;
+  width: 20%;
+  font-size: 17px;
+  border-style: none;
+  background-color: brown;
+  color: white;
+  border-radius: 10px;
+}
+
+.after-search {
+  padding: 10px;
+}
+.after-search > .sitem
+{ 
+  padding: 5px 30px;
+  margin: 10px 40px;
+  justify-content: center;
+  background-image: url(../css/assets/search-image.png);
+  height: 400px;
+  width: 450px;
+  color: white;
+  opacity: 0.8;
+  background-size: cover;
+}
+
+.search-heading{
+  text-align: center;
+  font-weight: bold;
+}
