@@ -6,9 +6,46 @@
 
 @media (min-width: 600px) {
   body {
-    display: none;
+    display: block;
   }
 }
+.dropbtn {
+  background-color: #7a4e14;
+  color: white;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+a{
+  color: white;
+  opacity: 0.8;
+}
+a:hover{
+  color: white;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 120px;
+}
+
+.dropdown-content a {
+  color: black;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+
 
 .navigation {
   background-color: #7a4e14;
@@ -284,4 +321,45 @@ label {
 .search-heading{
   text-align: center;
   font-weight: bold;
+}
+
+.name-box{
+  margin: 20px 5px;
+  padding: 10px;
+  background-color: rgb(230, 212, 212);
+}
+
+.c1{
+  display: block;
+}
+.text-box {
+  width: 230px;
+  height: 30px;
+  color: #af8d5f;
+  border-style: groove;
+
+}
+
+.containerp3>.name-box>.name-icon>div>a>i{
+  font-size: 2rem;
+  padding: 1px;
+  color: #7a4e14;
+}
+
+.containerp3>.name-box>.name-icon>div>a>h5{
+  font-size: 2rem;
+  color: #7a4e14;
+}
+
+.p2-top-bottom > ul > li > a{
+  color: rgb(88, 93, 143);
+  font-size: 1rem;
+}
+
+.p2-top-bottom > ul > li > a >h5{
+  color: rgb(88, 93, 143);
+}
+
+.i{
+  align-items: baseline;
 }
