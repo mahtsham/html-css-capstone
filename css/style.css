@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 778px) {
   .container > .first-section {
     margin: 0 -100px;
   }
@@ -49,6 +49,17 @@
 }
 
 @media (max-width: 576px) {
+  .container {
+    background-color: #af8d5f;
+  }
+}
+
+@media (min-width: 576) and (max-width: 778) {
+  .mid-section > .boxes {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+
   .container {
     background-color: #af8d5f;
   }
