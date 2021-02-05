@@ -1,9 +1,7 @@
 # html-css-capstone
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Newsweek Website Clone
-
-> This is the readMe for the NewsWeek Project. It is a replica/clone of the Newsweek website.
+> This is the readMe for the Html capstone Project.
 
 ![screenshot](./css/assets/Screenshot1.png)
 ![screenshot](./css/assets/Screenshot2.png)
