@@ -19,53 +19,76 @@
             </div>
             <div class="">
                 <ul class="d-flex list-unstyled px-5 justify-content-between">
-                    <li class="dropdown"><a href="#"><button class="dropbtn"><i class="fa fa-bars" aria-hidden="true"></i>
+                    <li class="dropdown"><a href="#"><button class="dropbtn"><i class="fa fa-bars" aria-hidden="true"></i>List
                         <div class="dropdown-content">
                             <a href="../index.html">main page</a>
                             <a href="pages/search-page.html">search page</a>
                             <a href="pages/detailed-page.html">detailed page</a>
                           </div>
                     </button></a></li>
-                    <li><a href="#"><i class="fa fa-search active" aria-hidden="true"></i></a></li>
-                    <li><a href="#"><i class="fa fa-user-o" aria-hidden="true"></i></a></li>
-                    <li><a href="#"><i class="fa fa-rss" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-search active" aria-hidden="true"></i>Search</a></li>
+                    <li><a href="#"><i class="fa fa-user-o" aria-hidden="true"></i>User</a></li>
+                    <li><a href="#"><i class="fa fa-rss" aria-hidden="true"></i>Blog</a></li>
                     
                 </ul>
             </div>
 
         </nav>
+        <nav class="navigation1">
+          <div class="d-flex justify-content-center container-fluid">
+              <div class="#"><a href="#"><i class="fa fa-graduation-cap" aria-hidden="true"></i></a></div>
+              <div class="name"><a href="#"><h5>Topsters</h5></a></div>
+          </div>
+          <div class="">
+              <ul class="d-flex list-unstyled px-5 justify-content-between">
+                  <li class="dropdown"><button class="dropbtn" type="menu"><a href="#"><i class="fa fa-bars" aria-hidden="true"></i>
+                      <article class="dropdown-content">
+                          <a href="index.html">main page</a>
+                          <a href="pages/search-page.html">search page</a>
+                          <a href="pages/detailed-page.html">detailed page</a>
+                      </article>
+                      </a></button></li>
+                  <li><a href="#"><i class="fa fa-search active" aria-hidden="true"></i></a></li>
+                  <li><a href="#"><i class="fa fa-user-o" aria-hidden="true"></i></a></li>
+                  
+                  <li><a href="#"><i class="fa fa-rss" aria-hidden="true"></i></a></li>
+               
+              </ul>
+          </div>
+          
+
+      </nav>
     </header>
-    <main class="containerp2">
         <section class="search-form ">
-            <form action="/action_page.php">
+            <form class="f">
                 <h2 class="heading">Filter by School, Level, Education Type, Country</h2>
-                <div class="b1"><label for="fname">School Name</label>
+                <div class="b1"><label for="fname"><h6>School Name</h6></label>
                 <input type="text" id="fname" name="fname" value=""></div><br>
-                <div class="b1"><label for="Country">Country</label>
+                <div class="b2"><label for="Country"><h6>Country</h6></label>
                 <select class="select" id="Country" name="select">
                     <option value="pakistan">pakistan</option>
                     <option value="France">France</option>
                     <option value="U.K">U.K</option>
                     <option value="Canada">Audi</option>
                 </select></div> <br>
-                <div class="b1"><label for="level">level</label>
+                <div class="b3"><label for="level"><h6>level</h6></label>
                 <select class="select" id="level" name="level">
                     <option value="Kindergarden">Kindergarden</option>
                     <option value="Primary">Primary</option>
                     <option value="Secondary">Secondary</option>
                 </select></div><br>
-                <div class="b1"><label for="type">Type</label>
+                <div class="b4"><label for="type"><h6>Type</h6></label>
                 <select class="select" id="type" name="type">
                     <option value="first type">first type</option>
                     <option value="second-type">second type</option>
                     <option value="third-type">third type</option>
                 </select></div><br>
-                <div class="b1"><label for="gender">Gender</label>
+                <div class="b5"><label for="gender"><h6>Gender</h6></label>
                 <select class="select" id="gender" name="gender">
                     <option value="male">male</option>
                     <option value="female">female</option>
                 </select></div><br>
-                <div class="b1"><label for="curriculum">curriculum</label>
+                <div class="b6"><label for="curriculum"><h6>curriculum</h6></label>
                 <select class="select" id="curriculum" name="curriculum">
                     <option value="english">English</option>
                     <option value="urdu">Urdu</option>
@@ -77,7 +100,7 @@
         </section>
         <h4 class="search-heading">Search Result Found Seven School(s).</h4>
 
-        <section class="after-search d-flex flex-column container-fluid justify-content-center d-lg-grid d-md-grid">
+        <section class="after-search d-flex flex-column justify-content-center d-lg-grid d-md-grid d-sm">
             
                 <div class="sitem text-center"><h2>Reach Preschool</h2></div>
                  <div class="sitem text-center"><h2>Grade IV till O Level</h2></div>
@@ -95,8 +118,17 @@
 
 
          <footer class="site-footer text-center">
-
-
+          <div class="d-flex flex-lg-row flex-md-row flex-sm-row  py-2 px-2 border-top justify-content-between">
+            <a href="index.html" class="text-decoration-none text-light">HOME</a>
+            <a href="./search.html" class="text-decoration-none text-light">SEARCH</a>
+            <a href="#" class="text-decoration-none text-light">ABOUT US</a>
+            <a href="#" class="text-decoration-none text-light">ADVERTISE</a>
+            <a href="#" class="text-decoration-none text-light"><i class='fas fa-map-marker-alt'></i></a>
+            <a href="#" class="text-decoration-none text-light">FACEBOOK</a>
+            <a href="#" class="text-decoration-none text-light">TWITTER</a>
+            <a href="#" class="text-decoration-none text-light">BLOG</a>
+            <a href="#" class="text-decoration-none text-light">GOOGLE+</a>
+          </div>
             <div class="container2">
               <div class="row">
                 <div class="">
@@ -115,7 +147,6 @@
       </footer>
 
       
-    </main>
     
 
     <script
