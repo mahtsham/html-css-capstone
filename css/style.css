@@ -104,7 +104,6 @@
 
   .f {
     font-size: 20px;
-    width: 40px;
   }
 
   .d {
@@ -510,12 +509,8 @@ label {
   background-color: rgb(230, 212, 212);
 }
 
-.c1 {
-  display: block;
-}
-
 .text-box {
-  width: 230px;
+  width: 500px;
   height: 30px;
   color: #af8d5f;
   border-style: groove;
