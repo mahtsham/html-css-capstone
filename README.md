@@ -28,7 +28,7 @@ please enjoy!
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/mahtsham/html-css-capstone/544d2da4a9c24ab0ea7edd8786ecca6d778da9d3/index.html)
+[Live Demo Link](https://rawcdn.githack.com/mahtsham/html-css-capstone/b9909872703b1f23b94fd935abdbd0ee2393ac15/index.html)
 
 
 ## Getting Started
