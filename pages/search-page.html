@@ -59,46 +59,71 @@
 
         </nav>
     </header>
-    <section class="search-form ">
-        <form class="f">
-            <h2 class="heading">Filter by School, Level, Education Type, Country</h2>
-            <div class="d">
-                <div class="b1"><label for="fname">School Name</label>
-                    <input type="text" id="fname" name="fname" value=""></div><br>
-                <div class="b2"><label for="Country">Country</label>
-                    <select class="select" id="Country" name="select">
-                    <option value="pakistan">pakistan</option>
-                    <option value="France">France</option>
-                    <option value="U.K">U.K</option>
-                    <option value="Canada">Audi</option>
-                </select></div> <br>
-                <div class="b3"><label for="level">level</label>
-                    <select class="select" id="level" name="level">
-                    <option value="Kindergarden">Kindergarden</option>
-                    <option value="Primary">Primary</option>
-                    <option value="Secondary">Secondary</option>
-                </select></div><br>
-                <div class="b4"><label for="type">Type</label>
-                    <select class="select" id="type" name="type">
-                    <option value="first type">first type</option>
-                    <option value="second-type">second type</option>
-                    <option value="third-type">third type</option>
-                </select></div><br>
-                <div class="b5"><label for="gender">Gender</label>
-                    <select class="select" id="gender" name="gender">
-                    <option value="male">male</option>
-                    <option value="female">female</option>
-                </select></div><br>
-                <div class="b6"><label for="curriculum">curriculum</label>
-                    <select class="select" id="curriculum" name="curriculum">
-                    <option value="english">English</option>
-                    <option value="urdu">Urdu</option>
-                    <option value="physics">Physics</option>
-                    <option value="computer">Computer</option>
-                </select></div><br>
-                <input class="btn-submit" type="submit" value="Search">
-            </div>
-        </form>
+    <section class="search-form">
+      <div class="container pt-4 filter">
+          <h2 class="text-center text-secondary font-weight-bolder large">Filter by name, state, education system, school level:</h2>
+          <div class="row justify-content-center text-center">
+              <div class="col-lg-2 col-md-2 p-0 ">
+                  <p class="p-0 small text-center m-0">SCHOOL NAME</p>
+                  <input type="text" class="form-control ml-2" style="max-width: 100%;">
+              </div>
+              <div class="col-lg-1 col-md-1 p-0">
+                  <p class="pb-0 mb-0 small">STATE</p>
+                  <select name="LEVEL" id="STATE" class="rounded">
+                      <option value="select">select</option>
+                      <option value="UTTAR PRADESH">Lahore</option>
+                      <option value="PUNJAB">Faisalabad</option>
+                      <option value="NEW DELHI">Islamabad</option>
+                      <option value="KARNATAKA">Larkana</option>
+                  </select>
+              </div>
+              <div class="col-lg-1 col-md-1 p-0">
+                  <p class="pb-0 mb-0 small">LEVEL</p>
+                  <select name="LEVEL" id="LEVEL" class="rounded">
+                      <option value="select">select</option>
+                      <option value="GRADUATE">Primary</option>
+                      <option value="PRIMARY">graduate</option>
+                      <option value="SECONDARY">secondary</option>
+                      <option value="HIGH-SCHOOL">high-school</option>
+                  </select>
+              </div>
+              <div class="col-lg-1 col-md-1 p-0">
+                  <p class="pb-0 mb-0 small">TYPE</p>
+                  <select name="TYPE" id="TYPE" class="rounded">
+                      <option value="select">select</option>
+                      <option value="SPORTS">Art</option>
+                      <option value="LAW">law</option>
+                      <option value="ART">Engineer</option>
+                      <option value="TECHNICAL">Comerce</option>
+                  </select>
+              </div>
+              <div class="col-lg-1 col-md-1 p-0">
+                  <p class="pb-0 mb-0 small">GENDER</p>
+                  <select name="GENDER" id="GENDER" class="rounded">
+                      <option value="select">select</option>
+                      <option value="FEMALE">Male</option>
+                      <option value="MALE">Female</option>
+                  </select>
+              </div>
+              <div class="col-lg-2 col-md-2 p-0">
+                  <p class="pb-0 mb-0 small">STREAM</p>
+                  <select name="CURRICULLUM" id="CURRICULLUM" class="rounded">
+                      <option value="select">select</option>
+                      <option value="B.tech">BS(CS)</option>
+                      <option value="MBBS">BBA</option>
+                      <option value="CURRICULLUM">Electrical</option>
+                  </select>
+              </div>
+              <div class="col-lg-1 col-md-1 pt-3 px-0">
+                  <button type="submit" class="btn-block bg-primary text-light mb-0 rounded border-primary font-weight-bolder small mt-1 py-1">Search</button>
+              </div>
+              <div class="col-lg-2 col-md-2 pt-3 px-0">    
+                  <button type="reset" class="btn-block bg-warning rounded small border-warning py-1 mt-1"><i class="fa fa-pencil-square-o text-light font-weight-bolder px-0" aria-hidden="true">Clear Filter</i></button>
+              </div>
+          </div>
+          
+          
+      </div>
     </section>
     <h4 class="search-heading">Search Result Found Seven School(s).</h4>
 
