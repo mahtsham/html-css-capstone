@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Search Page of School directory</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/64486ec299.js" crossorigin="anonymous"></script>
+</head>
+
+<body id="page2">
+    <header>
+        <nav class="navigation">
+            <div class="d-flex justify-content-center">
+                <div class="#"><a href="../index.html"><i class="fa fa-graduation-cap" aria-hidden="true"></i></a></div>
+                <div class="name">
+                    <a href="../index.html">
+                        <h5>Topsters</h5>
+                    </a>
+                </div>
+            </div>
+            <div class="">
+                <ul class="d-flex list-unstyled px-5 justify-content-between">
+                    <li class="dropdown"><a href="detailed-page.html"><i class="fa fa-bars" aria-hidden="true"></i>detail</a></li>
+                    <li><a href="#"><i class="fa fa-search active" aria-hidden="true"></i>Schools</a></li>
+                    <li><a href="#"><i class="fa fa-user-o" aria-hidden="true"></i>User</a></li>
+                    <li><a href="#"><i class="fa fa-rss" aria-hidden="true"></i>Blog</a></li>
+                    </ul>
+            </div>
+        </nav>
+        <nav class="navigation1">
+            <div class="d-flex justify-content-center container-fluid">
+                <div class="#"><a href="../index.html"><i class="fa fa-graduation-cap" aria-hidden="true"></i></a></div>
+                <div class="name">
+                    <a href="../index.html">
+                        <h5>Topsters</h5>
+                    </a>
+                </div>
+            </div>
+            <div class="">
+                <ul class="d-flex list-unstyled px-5 justify-content-between">
+                    <li class="dropdown"><a href="detailed-page.html"><i class="fa fa-bars" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-search active" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-user-o" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-rss" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section class="search-form">
+      <div class="container pt-4 filter">
+          <h2 class="text-center text-secondary font-weight-bolder large">Filter by name, state, education system, school level:</h2>
+          <div class="row justify-content-center text-center">
+              <div class="col-lg-2 col-md-2 p-0 ">
+                  <p class="p-0 small text-center m-0">SCHOOL NAME</p>
+                  <input type="text" class="form-control ml-2" style="max-width: 100%;">
+              </div>
+              <div class="col-lg-1 col-md-1 p-0">
+                  <p class="pb-0 mb-0 small">STATE</p>
+                  <select name="LEVEL" id="STATE" class="rounded">
+                      <option value="select">select</option>
+                      <option value="UTTAR PRADESH">Lahore</option>
+                      <option value="PUNJAB">Faisalabad</option>
+                      <option value="NEW DELHI">Islamabad</option>
+                      <option value="KARNATAKA">Larkana</option>
+                  </select>
+              </div>
+              <div class="col-lg-1 col-md-1 p-0">
+                  <p class="pb-0 mb-0 small">LEVEL</p>
+                  <select name="LEVEL" id="LEVEL" class="rounded">
+                      <option value="select">select</option>
+                      <option value="GRADUATE">Primary</option>
+                      <option value="PRIMARY">graduate</option>
+                      <option value="SECONDARY">secondary</option>
+                      <option value="HIGH-SCHOOL">high-school</option>
+                  </select>
+              </div>
+              <div class="col-lg-1 col-md-1 p-0">
+                  <p class="pb-0 mb-0 small">TYPE</p>
+                  <select name="TYPE" id="TYPE" class="rounded">
+                      <option value="select">select</option>
+                      <option value="SPORTS">Art</option>
+                      <option value="LAW">law</option>
+                      <option value="ART">Engineer</option>
+                      <option value="TECHNICAL">Comerce</option>
+                  </select>
+              </div>
+              <div class="col-lg-1 col-md-1 p-0">
+                  <p class="pb-0 mb-0 small">GENDER</p>
+                  <select name="GENDER" id="GENDER" class="rounded">
+                      <option value="select">select</option>
+                      <option value="FEMALE">Male</option>
+                      <option value="MALE">Female</option>
+                  </select>
+              </div>
+              <div class="col-lg-2 col-md-2 p-0">
+                  <p class="pb-0 mb-0 small">STREAM</p>
+                  <select name="CURRICULLUM" id="CURRICULLUM" class="rounded">
+                      <option value="select">select</option>
+                      <option value="B.tech">BS(CS)</option>
+                      <option value="MBBS">BBA</option>
+                      <option value="CURRICULLUM">Electrical</option>
+                  </select>
+              </div>
+              <div class="col-lg-1 col-md-1 pt-3 px-3">
+                  <button type="submit" class="button-block1 bg-primary text-light mb-0 rounded border-primary font-weight-bolder small mt-1 py-1">Search</button>
+              </div>
+              <div class="col-lg-2 col-md-2 pt-3 px-3">
+                  <button type="reset" class="button-block bg-warning rounded small border-warning py-1 mt-1"><i class="fa fa-pencil-square-o text-light font-weight-bolder px-0" aria-hidden="true">Clear Filter</i></button>
+              </div>
+          </div>
+         </div>
+        </section>
+
+    <h4 class="search-heading">Search Result Found Seven School(s).</h4>
+
+    <section class="after-search d-flex flex-column justify-content-center d-lg-grid d-md-grid d-sm">
+        <div class="sitem text-center">
+            <h2>Reach Preschool</h2>
+        </div>
+        <div class="sitem text-center">
+            <h2>Grade IV till O Level</h2>
+        </div>
+        <div class="sitem text-center">
+            <h2>A Level</h2>
+        </div>
+        <div class="sitem text-center">
+            <h2>A Level</h2>
+        </div>
+        <div class="sitem text-center">
+            <h2>A Level</h2>
+        </div>
+        <div class="sitem text-center">
+            <h2>A Level</h2>
+        </div>
+    </section>
+
+
+
+    <footer class="site-footer text-center">
+      <div class="d-flex flex-lg-row flex-md-row flex-sm-row  py-2 px-2 border-top justify-content-between">
+        <a href="../index.html" class="text-decoration-none text-light">HOME</a>
+        <a href="search-page.html" class="text-decoration-none text-light">SEARCH</a>
+        <a href="#" class="text-decoration-none text-light">ABOUT US</a>
+        <a href="#" class="text-decoration-none text-light">ADVERTISE</a>
+        <a href="#" class="text-decoration-none text-light"><i class='fas fa-map-marker-alt'></i></a>
+        <a href="#" class="text-decoration-none text-light">FACEBOOK</a>
+        <a href="#" class="text-decoration-none text-light">TWITTER</a>
+        <a href="#" class="text-decoration-none text-light">BLOG</a>
+        <a href="#" class="text-decoration-none text-light">GOOGLE+</a>
+      </div>
+        <div class="container2">
+            <div class="row">
+                <div class="">
+                    <p class="copyright-text">Copyright &copy; 2017 All Rights Reserved by Topsters.</p>
+                </div>
+                <div class="icons">
+                    <ul class="social-icons d-flex justify-content-center list-unstyled">
+                        <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>
