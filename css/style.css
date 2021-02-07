@@ -563,3 +563,13 @@ img {
   max-width: 99%;
   padding: 0;
 }
+
+.button-block1 {
+  padding-left: 14px;
+  padding-right: 14px;
+}
+
+.button-block {
+  padding-left: 8px;
+  padding-right: 8px;
+}
